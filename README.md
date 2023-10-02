@@ -9,6 +9,22 @@ Currently, two official plugins are available:
 
 ### Nome do Projeto: Herbotask
 
+## Utilidades
+
+Esse projeto usará json-server para simular uma API REST, para isso, é necessário instalar o json-server globalmente (apenas uma vez):
+```bash
+npm install -g json-server
+```
+
+Para rodar o servidor, basta executar o comando:
+```bash
+json-server --watch db.json
+```
+
+O arquivo db.json contém os dados que serão utilizados pelo json-server.
+
+---
+
 ## Visão Geral:
 Herbotask é um projeto que combina sua paixão por herbologia, alquimia, pesquisa e natureza com a gamificação para aumentar a motivação e a produtividade em sua vida diária. Este sistema transforma tarefas cotidianas em missões e desafios que ganham recompensas no mundo virtual e real.
 

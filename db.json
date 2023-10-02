@@ -1,0 +1,74 @@
+{
+  "herbs": [
+    {
+      "id": 1,
+      "name": "Mystic Herb",
+      "description": "A rare herb with magical properties.",
+      "discoveryPoints": 50,
+      "researchLevel": 2,
+      "growingStage": "Planted",
+      "alchemyIngredients": ["Essence of Fire", "Water of Life"]
+    },
+    {
+      "id": 2,
+      "name": "Ethereal Blossom",
+      "description": "A flower that only blooms under the full moon.",
+      "discoveryPoints": 75,
+      "researchLevel": 3,
+      "growingStage": "Budding",
+      "alchemyIngredients": ["Moonlight Dew", "Starlit Petals"]
+    }
+  ],
+  "alchemyRecipes": [
+    {
+      "id": 1,
+      "name": "Potion of Vitality",
+      "ingredients": ["Mystic Herb", "Crystalized Water"],
+      "effect": "Restores health and energy.",
+      "discoveryPoints": 100
+    },
+    {
+      "id": 2,
+      "name": "Elixir of Wisdom",
+      "ingredients": ["Ethereal Blossom", "Ancient Knowledge Essence"],
+      "effect": "Enhances mental clarity and focus.",
+      "discoveryPoints": 150
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Study Herbal Lore",
+      "description": "Read ancient texts about mystical herbs.",
+      "rewardPoints": 30
+    },
+    {
+      "id": 2,
+      "title": "Plant Mystic Herb",
+      "description": "Care for and cultivate the Mystic Herb.",
+      "rewardPoints": 40,
+      "idlePoints": 5
+    },
+    {
+      "id": 3,
+      "title": "Collect Ethereal Blossom",
+      "description": "Harvest Ethereal Blossoms under the full moon.",
+      "rewardPoints": 60,
+      "idlePoints": 10
+    },
+    {
+      "id": 4,
+      "title": "Concoct Elixir of Wisdom",
+      "description": "Create the Elixir of Wisdom using alchemy.",
+      "rewardPoints": 80
+    }
+  ],
+  "profile": {
+    "name": "NatureExplorer",
+    "level": 5,
+    "experiencePoints": 1200,
+    "energy": 75,
+    "water": 50,
+    "earth": 60
+  }
+}
