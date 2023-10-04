@@ -4,7 +4,8 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    background: var(--global-secondary-lightcolor);
+    /* background: var(--global-primary-lightcolor); */
+    background-color: chartreuse;
     padding: 1.5rem;
     border-radius: 6px;
     box-shadow: #2F7366;

@@ -1,12 +1,3 @@
-:root {
-    --global-primary-lightcolor: #F4F4F4;
-    --global-actions-color: #9BA657;
-    --global-secondary-lightcolor: #F0E5C9; 
-    --global-secondary-darkcolor: #A68C69;
-    --global-primary-darkcolor: #594433;
-  }
-
-
 .image-card {
     cursor: pointer;
     background-color: var(--global-secondary-darkcolor);

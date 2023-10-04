@@ -10,6 +10,7 @@ import Item from './components/Item.jsx';
 import TextTemplate from './components/TextTemplate.jsx';
 import ImageCard from './components/ImageCard.jsx';
 import ItemList from './components/ItemList.jsx';
+import RoundCard from './components/RoundCard.jsx';
 // import Timer from './components/Timer/Timer';
 
 const arrayItems = [
@@ -44,13 +45,22 @@ function App() {
         <p>These are the plants that you can plant</p>
       </header>
       <ItemList>
-        {arrayItems.map((item, index) => (
+        {/* {arrayItems.map((item, index) => (
           <Item key={index}>
             <ImageCard image={item.image} />
             <TextTemplate title={item.title}
               description={item.description} />
           </Item>
+        ))} */}
+
+{arrayItems.map((item, index) => (
+          <Item key={index}>
+            <RoundCard />
+            <TextTemplate title={item.title}
+              description={item.description} />
+          </Item>
         ))}
+
       </ItemList>
     </div>
   );

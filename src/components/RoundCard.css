@@ -1,0 +1,17 @@
+.round-card {
+    cursor: pointer;
+    background-color: var(--global-secondary-darkcolor);
+    /* background-color: #c59827; */
+    border-radius: 1rem;
+}
+
+.figure-card {
+    width: '15vw'; 
+    height: '15vh'; 
+    border-radius: 50%; 
+    background-color: red;
+    background-size: cover; 
+    background-position: center center; 
+    /* overflow: 'hidden'  */
+    
+}
