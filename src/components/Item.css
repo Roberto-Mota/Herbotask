@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    background: var(--global-secondary-lightcolor);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: #2F7366;
+    width: 33%;
+    transition: all 0.2s
+  }
+  
+  .item:hover {
+    transform: translateY(-6px);
+    transition: transform 0,8s;
+    box-shadow: 0 2px 30px  rgba(32, 33, 38, 0.3);
+  }

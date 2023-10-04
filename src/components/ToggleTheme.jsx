@@ -1,6 +1,6 @@
 //Aqui ficara um componente de botão para trocar o tema da aplicação como um todo
 import React from 'react';
-import { ThemeContext } from '../context/ThemeContext';
+// import { ThemeContext } from '../context/ThemeContext';
 
 
 export default function ToggleTheme() {
