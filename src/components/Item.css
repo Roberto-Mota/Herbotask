@@ -5,10 +5,10 @@
     align-items: center;
     gap: 1rem;
     /* background: var(--global-primary-lightcolor); */
-    background-color: chartreuse;
+    background-color: rgb(207, 244, 255);
     padding: 1.5rem;
     border-radius: 6px;
-    box-shadow: #2F7366;
+    box-shadow: #e1fffc;
     width: 33%;
     transition: all 0.2s
   }

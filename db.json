@@ -1,21 +1,37 @@
 {
   "herbs": [
     {
+      "id": 0,
+      "title": "'Apex Terrarium'",
+      "image": "apex_default_1",
+      "description":
+        "'Boulderback Shrooms are sturdy and robust mushrooms found in rocky terrains and mountainous regions. They have a distinct appearance with their thick, rugged caps and a textured surface resembling the roughness of boulders. These mushrooms grow in clusters, clinging to the crevices and rocky outcrops.'"
+    },
+    {
       "id": 1,
-      "name": "Mystic Herb",
-      "description": "A rare herb with magical properties.",
-      "discoveryPoints": 50,
-      "researchLevel": 2,
-      "growingStage": "Planted",
-      "alchemyIngredients": ["Essence of Fire", "Water of Life"]
+      "title": "Revitalia Terrarium",
+      "image": "apex_default_2",
+      "description":
+        "'The Revitalia Tuber is a common root plant widely farmed in various regions due to its easy cultivation. With a hearty taste, it has become a favored ingredient in flavorful soups known for their revitalizing properties. This remarkable tuber promotes vitality and overall well-being, making it a cherished staple among farmers, herbalists, and those seeking nourishment and rejuvenation.'"
     },
     {
       "id": 2,
-      "name": "Ethereal Blossom",
+      "title": "'Ruberry Bush'",
+      "image": "fruityBush",
+      "description":
+        "'Favored by explorers, nomads, and nature enthusiasts, the Ruberry Bush thrives in both cultivated gardens and hidden corners of the wild. Its clusters of red berries serve as a natural source of nourishment, offering a refreshing and revitalizing taste to those fortunate enough to stumble upon them. Their compact size and rich flavor make them a versatile ingredient for cooks and herbalists, enhancing a variety of dishes, beverages, and medicinal concoctions.'"
+    }
+,
+    {
+      "id": 3,
+      "title": "Mystic Herb",
+      "description": "A rare herb with magical properties.",
+      "alchemyIngredients": ["Essence of Fire", "Water of Life"]
+    },
+    {
+      "id": 4,
+      "title": "Ethereal Blossom",
       "description": "A flower that only blooms under the full moon.",
-      "discoveryPoints": 75,
-      "researchLevel": 3,
-      "growingStage": "Budding",
       "alchemyIngredients": ["Moonlight Dew", "Starlit Petals"]
     }
   ],

@@ -9,10 +9,10 @@ export default function ToggleTheme() {
         <button onClick={toggleTheme}>Mudar Tema</button>
     );
 
-    toggleTheme = () => {
-        this.setState({ theme: this.state.theme === 'dark' ? 'light' : 'dark' });
+    // toggleTheme = () => {
+    //     this.setState({ theme: this.state.theme === 'dark' ? 'light' : 'dark' });
 
-    }
+    // }
 
 }
 
