@@ -54,8 +54,8 @@ const MainPage = ({ title, description }) => {
 
 <div>
       <header>
-        <h1>Plants Menu</h1>
-        <p>These are the plants that you can plant</p>
+        <h1>Plants Codex</h1>
+        <p>These are the the plants that you can plant in your Ecochambers</p>
         <ItemList>
         {
         arrayItems.map((item, index) => (

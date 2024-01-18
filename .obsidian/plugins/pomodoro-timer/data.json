@@ -1,0 +1,16 @@
+{
+  "workLen": 25,
+  "breakLen": 5,
+  "autostart": false,
+  "useStatusBarTimer": false,
+  "notificationSound": true,
+  "customSound": "/home/mota/Downloads/mixkit-sci-fi-positive-notification-266.wav",
+  "logFile": "DAILY",
+  "logFocused": false,
+  "logPath": "",
+  "logLevel": "WORK",
+  "logTemplate": "",
+  "logFormat": "SIMPLE",
+  "useSystemNotification": false,
+  "taskFormat": "DATAVIEW"
+}

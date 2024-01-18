@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2876c46df0a3215b",
+            "id": "234973ad7d1b3ea9",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -23,13 +23,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Conceito/Conceitos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4e6df1adb9786c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceito/Techlien.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b54225401d22281a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceito/Aztech.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abd18b9682e6409f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Conceito/Apex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -41,6 +78,7 @@
       {
         "id": "1dfd729c9bb627ae",
         "type": "tabs",
+        "dimension": 68.14814814814815,
         "children": [
           {
             "id": "ee3f6aadd34feee2",
@@ -76,6 +114,21 @@
             }
           }
         ]
+      },
+      {
+        "id": "3385bfb57c8f24a5",
+        "type": "tabs",
+        "dimension": 31.85185185185185,
+        "children": [
+          {
+            "id": "29c9108a6b9623db",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ideias/Ideias.md",
+                "file": "Conceito/Techlien.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ideias/Ideias.md",
+                "file": "Conceito/Techlien.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,15 +188,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ideias/Ideias.md"
+                "file": "Conceito/Techlien.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 353.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -155,29 +209,36 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-day-planner:Timeline": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "2876c46df0a3215b",
+  "active": "b4e6df1adb9786c3",
   "lastOpenFiles": [
-    "vite.config.js.timestamp-1704334467245-cdfce3efb7d13.mjs",
-    "vite.config.js.timestamp-1704334423526-6971c213bc9ff.mjs",
-    "src/db.json",
+    "vite.config.js.timestamp-1705536112937-e7f2823f91511.mjs",
+    "node_modules/@esbuild/android-arm",
+    "node_modules/@esbuild/win32-x64",
+    "node_modules/fsevents",
+    "node_modules/@esbuild/win32-ia32",
+    "node_modules/@esbuild/win32-arm64",
+    "node_modules/@esbuild/sunos-x64",
+    "node_modules/@esbuild/openbsd-x64",
+    "node_modules/@esbuild/netbsd-x64",
+    "node_modules/@esbuild/linux-s390x",
+    "node_modules/@esbuild/linux-riscv64",
+    "ideias/Ideias.md",
+    "2024-01-09.md",
+    "Conceito/Aztech.md",
+    "Conceito/Conceitos.md",
+    "Conceito/Techlien.md",
+    "Conceito/Apex.md",
+    "Conceito/Prompteer.md",
     "src/assets/images/apex_default_2.png",
     "src/assets/images/apex_default_1.png",
     "apex_default_2.png",
     "apex_default_1.png",
-    "ideias/Ideias.md",
     "apex_default_1 1.png",
     "Pasted Image 20240102141800_882.png",
-    "vite.config.js.timestamp-1704331220309-64115399e1334.mjs",
-    "src/components/AuthRoute.tsx",
-    "vite.config.js.timestamp-1704330907772-b27fa7fa353ec.mjs",
-    "vite.config.js.timestamp-1704330840950-06b2c0c05cfff.mjs",
-    "vite.config.js.timestamp-1704330820452-5ab849a410bbb.mjs",
-    "vite.config.js.timestamp-1704330532138-8c2342cfb3911.mjs",
-    "node_modules/@esbuild/linux-mips64el",
-    "node_modules/@esbuild/linux-ia32",
     "node_modules/@remix-run/router/README.md",
     "node_modules/@remix-run/router/LICENSE.md",
     "node_modules/@remix-run/router/CHANGELOG.md",
@@ -196,12 +257,6 @@
     "node_modules/react-dom/README.md",
     "node_modules/vite/README.md",
     "node_modules/vite/LICENSE.md",
-    "node_modules/@eslint/js/README.md",
-    "node_modules/eslint-plugin-react/README.md",
-    "node_modules/rollup/README.md",
-    "node_modules/rollup/LICENSE.md",
-    "node_modules/resolve/SECURITY.md",
-    "node_modules/@types/babel__generator/README.md",
     "Pasted Image 20240102162751_971.png",
     "Pasted Image 20240102162559_957.png",
     "Pasted Image 20240102162314_942.png",

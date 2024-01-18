@@ -1,3 +1,7 @@
+/**
+ * Main application component.
+ * @returns {JSX.Element} The rendered App component.
+ */
 import { useState } from 'react'
 import './App.css'
 import { Route, Routes, BrowserRouter} from 'react-router-dom';

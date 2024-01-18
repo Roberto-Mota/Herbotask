@@ -7,3 +7,5 @@ A closed terrarium with futuristic panels, placed on a laboratory table. The ter
 
 cor:
 - Cyan
+
+**Conceituação:** Apex representa a fusão da tecnologia avançada com os processos naturais. Esta ramificação foca em soluções práticas e materiais para desafios ambientais, usando a ciência de ponta para "tecnologificar" a natureza. Suas inovações incluem tecidos artificiais que realizam fotossíntese, microclimas controlados artificialmente, e sistemas avançados de monitoramento e controle ambiental. A estética da Apex é marcada por painéis futuristas e design moderno, refletindo uma abordagem high-tech e centrada na humanidade para a sustentabilidade.
