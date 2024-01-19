@@ -23,50 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceito/Conceitos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4e6df1adb9786c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceito/Techlien.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b54225401d22281a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceito/Aztech.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abd18b9682e6409f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceito/Apex.md",
+                "file": "Conceito/prompt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceito/Techlien.md",
+                "file": "Conceito/prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceito/Techlien.md",
+                "file": "Conceito/prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceito/Techlien.md"
+                "file": "Conceito/prompt.md"
               }
             }
           }
@@ -213,24 +177,24 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "b4e6df1adb9786c3",
+  "active": "97c2d8d05be37386",
   "lastOpenFiles": [
-    "vite.config.js.timestamp-1705536112937-e7f2823f91511.mjs",
-    "node_modules/@esbuild/android-arm",
-    "node_modules/@esbuild/win32-x64",
-    "node_modules/fsevents",
-    "node_modules/@esbuild/win32-ia32",
-    "node_modules/@esbuild/win32-arm64",
-    "node_modules/@esbuild/sunos-x64",
-    "node_modules/@esbuild/openbsd-x64",
-    "node_modules/@esbuild/netbsd-x64",
-    "node_modules/@esbuild/linux-s390x",
-    "node_modules/@esbuild/linux-riscv64",
     "ideias/Ideias.md",
+    "src/components/Form.css",
+    "src/components/Form.jsx",
+    "Conceito/prompt.md",
+    "Conceito/Conceitos.md",
+    "vite.config.js.timestamp-1705589790143-538c49d22ef69.mjs",
+    "src/components/NavBar.css",
+    "src/components/NavBar.jsx",
+    "vite.config.js.timestamp-1705588443640-e5be8c50dfbf8.mjs",
+    "vite.config.js.timestamp-1705583119574-94e437448fded.mjs",
+    "Conceito/Techlien.md",
+    "src/components/Body.jsx",
+    "src/components/Body.css",
+    "src/components/Header.css",
     "2024-01-09.md",
     "Conceito/Aztech.md",
-    "Conceito/Conceitos.md",
-    "Conceito/Techlien.md",
     "Conceito/Apex.md",
     "Conceito/Prompteer.md",
     "src/assets/images/apex_default_2.png",
@@ -256,7 +220,6 @@
     "node_modules/@vitejs/plugin-react/README.md",
     "node_modules/react-dom/README.md",
     "node_modules/vite/README.md",
-    "node_modules/vite/LICENSE.md",
     "Pasted Image 20240102162751_971.png",
     "Pasted Image 20240102162559_957.png",
     "Pasted Image 20240102162314_942.png",

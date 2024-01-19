@@ -1,0 +1,19 @@
+/* Left Menu */
+.left-menu {
+    width: var(--left-menu-width);
+    background-color: var(--left-menu-bg-color);
+    color: var(--left-menu-text-color);
+}
+
+/* Menu Item */
+.left-menu-item {
+    padding: var(--left-menu-item-padding);
+    font-size: var(--left-menu-item-font-size);
+    border-bottom: 1px solid var(--left-menu-item-border-color);
+}
+
+/* Active Menu Item */
+.left-menu-item.active {
+    background-color: var(--left-menu-item-active-bg-color);
+    color: var(--left-menu-item-active-text-color);
+}

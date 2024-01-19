@@ -9,10 +9,10 @@ import fruityBush from '../assets/images/fruity_bush.png';
 import './ItemList.css';
 import ImageCard from './ImageCard';
 import { useState, useEffect } from 'react';
+import Body from './Body';
 
-const apiUrl = 'http://localhost:3000'; // URL do servidor db.json
-
-// const arrayItems = [
+const apiUrlMock = 'http://localhost:3000'; // URL do servidor db.json
+const apiUrl = 'http://localhost:1234'; // URL do servidor mongo
 //     {
 //       title: 'Apex Terrarium',
 //       image: apex_default_1,
@@ -33,40 +33,42 @@ const apiUrl = 'http://localhost:3000'; // URL do servidor db.json
 //     },
 //   ];
 
-const MainPage = ({ title, description }) => {
+const MainPage = () => {
 
   const [arrayItems, setArrayItems] = useState([]);
 
   useEffect(() => {
-      const herbs = (`${apiUrl}/herbs`);
-      console.log(herbs);
-      fetch(herbs) // Substitua com a URL correta da sua API
-
+      const plantas = (`${apiUrl}/plantas`);
+      console.log(plantas);
+      fetch(plantas) // Substitua com a URL correta da sua API
       .then(response => response.json())
+      .then(response => {
+        console.log("response: ");
+        console.log(response);
+        return response;
+      })
       //.then(data => console.log(data)) console.data não retornava nada
-          .then(data => setArrayItems(data))
-          .then(console.log(arrayItems))
-          .then(console.log('Requisição feita'))
-          .catch(error => console.error('Erro ao buscar dados:', error));
-  }, []); // O array vazio como segundo argumento garante que isso roda apenas uma vez ao montar
+      .then(response => setArrayItems(response))
+      .catch(error => console.error('Erro ao buscar dados:', error));
+  console.log(`arrayItems: ${arrayItems}`);
+  
+        }, []); // O array vazio como segundo argumento garante que isso roda apenas uma vez ao montar
 
     return (
-
-<div>
-      <header>
-        <h1>Plants Codex</h1>
-        <p>These are the the plants that you can plant in your Ecochambers</p>
-        <ItemList>
-        {
-        arrayItems.map((item, index) => (
-          <Item key={index}>
-            <ImageCard image={item.image} title={item.title}/>
-            <TextTemplate title={item.title}
-              description={item.description} />
-          </Item>
-        ))}
-        </ItemList>
-      </header>
-    </div> )};
+<Body>
+    <TextTemplate title={"Todas as plantas"} description={"descrição"} />
+    <ItemList>
+        {arrayItems.map((item) => {
+          console.log("item: ", item);
+          return (
+            //<Item key={item.id} title={item.name} description={item.description} image={item.image} />
+            <Item key={item.id}>
+              <h1>{item.nome}</h1>
+              <p>{item.description}</p>
+            </Item>
+            );
+        })}
+    </ItemList>
+</Body> )};
 
 export default MainPage;

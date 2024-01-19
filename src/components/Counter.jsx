@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 // don't change the Component name "App"
-export default function App() {
+export default function Counter() {
     const [counter, setCounter] = React.useState(0)
     
     function handleCounter() { 
