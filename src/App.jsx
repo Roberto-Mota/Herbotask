@@ -6,6 +6,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes, BrowserRouter} from 'react-router-dom';
 import Form from './components/Form.jsx';
+import Header from './components/Header.jsx';
 // import AuthRoute from "./components/AuthRoute";
 
 import MainPage from './components/MainPage.jsx';
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <NavBar/> */}
+      <Header/>
       <Routes>
       {/* <Route path="/login" element={} /> */}
 

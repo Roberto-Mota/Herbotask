@@ -11,26 +11,15 @@
             "id": "234973ad7d1b3ea9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "ideias/Ideias.md"
-              }
-            }
-          },
-          {
-            "id": "97c2d8d05be37386",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceito/prompt.md",
+                "file": "Conceito/Obsolet/Techlien.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceito/prompt.md",
+                "file": "Conceito/Obsolet/Techlien.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceito/prompt.md",
+                "file": "Conceito/Obsolet/Techlien.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceito/prompt.md"
+                "file": "Conceito/Obsolet/Techlien.md"
               }
             }
           }
@@ -177,52 +166,53 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "97c2d8d05be37386",
+  "active": "ee3f6aadd34feee2",
   "lastOpenFiles": [
-    "ideias/Ideias.md",
-    "src/components/Form.css",
-    "src/components/Form.jsx",
+    "vite.config.js.timestamp-1705679421685-60f5316af3549.mjs",
+    "node_modules/css-to-react-native/index.d.ts",
+    "node_modules/css-to-react-native/README.md",
+    "node_modules/css-to-react-native/LICENSE.md",
+    "node_modules/css-to-react-native/package.json",
+    "node_modules/css-to-react-native/index.js",
+    "node_modules/stylis/README.md",
+    "node_modules/stylis/package.json",
+    "node_modules/tslib/LICENSE.txt",
+    "node_modules/tslib/CopyrightNotice.txt",
+    "node_modules/tslib/tslib.d.ts",
+    "node_modules/tslib/SECURITY.md",
+    "node_modules/tslib/README.md",
+    "node_modules/tslib/package.json",
+    "node_modules/stylis/dist/umd/stylis.js.map",
+    "node_modules/stylis/dist/umd/stylis.js",
+    "node_modules/camelize/README.md",
+    "node_modules/camelize/CHANGELOG.md",
+    "node_modules/shallowequal/README.md",
+    "node_modules/styled-components/node_modules/postcss/README.md",
+    "node_modules/styled-components/README.md",
+    "node_modules/@types/stylis/README.md",
+    "node_modules/@emotion/unitless/README.md",
+    "node_modules/@emotion/is-prop-valid/README.md",
+    "node_modules/postcss-value-parser/README.md",
+    "node_modules/css-color-keywords/README.md",
+    "Conceito/Obsolet/Prompteer.md",
     "Conceito/prompt.md",
-    "Conceito/Conceitos.md",
-    "vite.config.js.timestamp-1705589790143-538c49d22ef69.mjs",
-    "src/components/NavBar.css",
-    "src/components/NavBar.jsx",
-    "vite.config.js.timestamp-1705588443640-e5be8c50dfbf8.mjs",
-    "vite.config.js.timestamp-1705583119574-94e437448fded.mjs",
-    "Conceito/Techlien.md",
-    "src/components/Body.jsx",
-    "src/components/Body.css",
-    "src/components/Header.css",
+    "Conceito/Obsolet/prompt.md",
+    "Conceito/Obsolet/Apex.md",
+    "ideias/Obsolet/Ideias.md",
+    "ideias/ideias-temas.jpg",
+    "ideias/theme.jpg",
+    "ideias/Gridfiti_Blog_NotionFreeTemplates_Student_AestheticStudentLifeDash.jpg",
+    "ideias/1_UxUxdmnieLGPsIhYfz9TJQ.png",
+    "Conceito/Obsolet/Conceitos.md",
+    "Conceito/Obsolet/Techlien.md",
     "2024-01-09.md",
-    "Conceito/Aztech.md",
-    "Conceito/Apex.md",
-    "Conceito/Prompteer.md",
+    "Conceito/Obsolet/Aztech.md",
     "src/assets/images/apex_default_2.png",
     "src/assets/images/apex_default_1.png",
     "apex_default_2.png",
     "apex_default_1.png",
     "apex_default_1 1.png",
     "Pasted Image 20240102141800_882.png",
-    "node_modules/@remix-run/router/README.md",
-    "node_modules/@remix-run/router/LICENSE.md",
-    "node_modules/@remix-run/router/CHANGELOG.md",
-    "node_modules/react-router-dom/README.md",
-    "node_modules/react-router-dom/LICENSE.md",
-    "node_modules/react-router/README.md",
-    "node_modules/react-router-dom/CHANGELOG.md",
-    "node_modules/react-router/LICENSE.md",
-    "node_modules/react-router/CHANGELOG.md",
-    "node_modules/es-abstract/README.md",
-    "node_modules/es-abstract/CHANGELOG.md",
-    "node_modules/caniuse-lite/README.md",
-    "node_modules/eslint/README.md",
-    "node_modules/@esbuild/linux-x64/README.md",
-    "node_modules/@vitejs/plugin-react/README.md",
-    "node_modules/react-dom/README.md",
-    "node_modules/vite/README.md",
-    "Pasted Image 20240102162751_971.png",
-    "Pasted Image 20240102162559_957.png",
-    "Pasted Image 20240102162314_942.png",
-    "Pasted Image 20240102153118_806.png"
+    "node_modules/@remix-run/router/README.md"
   ]
 }

@@ -1,4 +1,15 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
+
+//Styled components cria uma "variável" que pode ser usada como uma tag HTML, basicamente um componente
+const FormWrapper = styled.form`
+    background-color: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 100%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+`;
 
 const Form = () => {
     const [name, setName] = useState('');
@@ -52,7 +63,7 @@ const Form = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <FormWrapper onSubmit={handleSubmit} className='form-wrapper'>
             <label>
                 Name:
                 <input type="text" value={name} onChange={handleNameChange} />
@@ -89,7 +100,7 @@ const Form = () => {
             </label>
             <br />
             <button type="submit">Submit</button>
-        </form>
+        </FormWrapper>
     );
 };
 

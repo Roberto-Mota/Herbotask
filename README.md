@@ -7,7 +7,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Nome do Projeto: PlanTech
+### Nome do Projeto: Herbotask
 
 ## Utilidades
 
@@ -26,7 +26,7 @@ O arquivo db.json contém os dados que serão utilizados pelo json-server.
 ---
 
 ## Visão Geral:
-PlanTech é um projeto que combina sua paixão por herbologia, alquimia, pesquisa e natureza com a gamificação para aumentar a motivação e a produtividade em sua vida diária. Este sistema transforma tarefas cotidianas em missões e desafios que ganham recompensas no mundo virtual e real.
+Herbotask é um projeto que combina sua paixão por herbologia, alquimia, pesquisa e natureza com a gamificação para aumentar a motivação e a produtividade em sua vida diária. Este sistema transforma tarefas cotidianas em missões e desafios que ganham recompensas no mundo virtual e real.
 
 # Elementos-Chave:
 
@@ -55,17 +55,17 @@ PlanTech é um projeto que combina sua paixão por herbologia, alquimia, pesquis
         Ganhe pontos de pesquisa ao descobrir novas plantas ou experimentar com diferentes combinações.
 
     Comunidade e Competição:
-        Convide amigos para participar do PlanTech e competir para ver quem atinge mais pontos ou alcança objetivos específicos.
+        Convide amigos para participar do Herbotask e competir para ver quem atinge mais pontos ou alcança objetivos específicos.
         Crie um fórum ou grupo online para compartilhar suas descobertas e progresso.
 
     Recompensas no Mundo Real:
-        Associe recompensas no mundo real aos pontos que você ganha no PlanTech, como comprar uma planta nova, adquirir um livro de herbologia, ou uma visita a um jardim botânico.
+        Associe recompensas no mundo real aos pontos que você ganha no Herbotask, como comprar uma planta nova, adquirir um livro de herbologia, ou uma visita a um jardim botânico.
 
     Acompanhamento e Estatísticas:
         Mantenha um registro de seu progresso e use gráficos e estatísticas para acompanhar seu crescimento e evolução.
 
 Implementação:
-Desenvolva um aplicativo ou plataforma online que integre todos esses elementos. Você pode criar um site ou usar aplicativos de produtividade existentes como base e personalizá-los para se adequar à temática do PlanTech.
+Desenvolva um aplicativo ou plataforma online que integre todos esses elementos. Você pode criar um site ou usar aplicativos de produtividade existentes como base e personalizá-los para se adequar à temática do Herbotask.
 
 Dicas Adicionais:
 
@@ -74,4 +74,4 @@ Dicas Adicionais:
     Mantenha-se flexível e ajuste o sistema conforme você aprende o que funciona melhor para você.
     Compartilhe seu progresso com amigos e familiares para criar um sistema de suporte.
 
-PlanTech é uma forma inovadora de tornar suas paixões e tarefas diárias mais envolventes e recompensadoras. Ao transformar sua vida em um jogo, você pode encontrar a motivação necessária para realizar suas tarefas importantes enquanto se diverte explorando o mundo da herbologia e da alquimia.
+Herbotask é uma forma inovadora de tornar suas paixões e tarefas diárias mais envolventes e recompensadoras. Ao transformar sua vida em um jogo, você pode encontrar a motivação necessária para realizar suas tarefas importantes enquanto se diverte explorando o mundo da herbologia e da alquimia.
