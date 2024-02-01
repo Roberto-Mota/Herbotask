@@ -1,9 +1,10 @@
-import React from 'react';
-import './TextTemplate.css';
+import './Description.css';
 
-function TextTemplate(props) {
+function Description(props) {
     
-    const description = props.description;
+    console.log("props: ", props);
+    const description = props.text;
+    console.log("description: ", description);
     const descriptionLength = description.length;
     const descriptionLimit = 180;
     let descriptionText = description;
@@ -13,11 +14,11 @@ function TextTemplate(props) {
 
 
     return (
-        <div className="text-template">
-            <h2>{props.title}</h2>
+        <div className="description-template">
+            {/* <h2>{props.title}</h2> */}
             <p>{descriptionText}</p>
         </div>
     );
 }
 
-export default TextTemplate;
+export default Description;

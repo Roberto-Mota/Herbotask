@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceito/Obsolet/Techlien.md",
+                "file": "Conceito/prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "st",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3385bfb57c8f24a5",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceito/Obsolet/Techlien.md",
+                "file": "Conceito/prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceito/Obsolet/Techlien.md",
+                "file": "Conceito/prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceito/Obsolet/Techlien.md"
+                "file": "Conceito/prompt.md"
               }
             }
           }
@@ -166,8 +167,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "ee3f6aadd34feee2",
+  "active": "238e2a139797e66a",
   "lastOpenFiles": [
+    "vite.config.js.timestamp-1706824642055-a252ebe352a29.mjs",
+    "Conceito/Obsolet/Techlien.md",
+    "vite.config.js.timestamp-1706054409215-f6a300ccbc1f1.mjs",
     "vite.config.js.timestamp-1705679421685-60f5316af3549.mjs",
     "node_modules/css-to-react-native/index.d.ts",
     "node_modules/css-to-react-native/README.md",
@@ -182,8 +186,6 @@
     "node_modules/tslib/SECURITY.md",
     "node_modules/tslib/README.md",
     "node_modules/tslib/package.json",
-    "node_modules/stylis/dist/umd/stylis.js.map",
-    "node_modules/stylis/dist/umd/stylis.js",
     "node_modules/camelize/README.md",
     "node_modules/camelize/CHANGELOG.md",
     "node_modules/shallowequal/README.md",
@@ -204,7 +206,6 @@
     "ideias/Gridfiti_Blog_NotionFreeTemplates_Student_AestheticStudentLifeDash.jpg",
     "ideias/1_UxUxdmnieLGPsIhYfz9TJQ.png",
     "Conceito/Obsolet/Conceitos.md",
-    "Conceito/Obsolet/Techlien.md",
     "2024-01-09.md",
     "Conceito/Obsolet/Aztech.md",
     "src/assets/images/apex_default_2.png",

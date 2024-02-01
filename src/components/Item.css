@@ -1,15 +1,18 @@
 .item {
+    width: 20vw;
+    max-height: fit-content;
+    min-height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    /* background: var(--global-primary-lightcolor); */
-    background-color: rgb(207, 244, 255);
+    background: var(--global-);
+    /* background-color: rgb(207, 244, 255); */
     padding: 1.5rem;
     border-radius: 6px;
     box-shadow: #e1fffc;
-    width: 33%;
+    /* width: 33%; */
     transition: all 0.2s
   }
   
@@ -17,4 +20,12 @@
     transform: translateY(-6px);
     transition: transform 0,8s;
     box-shadow: 0 2px 30px  rgba(32, 33, 38, 0.3);
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    /* background-color: hsla(16, 56%, 48%, 0.5); */
+    /* border-radius: 0cm 0cm 1cm 1cm; */
   }

@@ -1,27 +1,36 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import Input from './Input';
+
+const apiUrlMock = 'http://localhost:3000'; // URL do servidor db.json
+const apiUrl = 'http://localhost:1234'; // URL da API mongo
 
 //Styled components cria uma "variável" que pode ser usada como uma tag HTML, basicamente um componente
 const FormWrapper = styled.form`
     background-color: linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 100%);
     border-radius: 10px;
     padding: 20px;
-    width: 90%;
-    max-width: 500px;
+    min-width: 10%;
+    max-width: 50vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 `;
 
 const Form = () => {
-    const [name, setName] = useState('');
+    const [nome, setNome] = useState('default name');
     const [description, setDescription] = useState('');
     const [aquagen, setAquagen] = useState(0);
     const [nourish, setNoursih] = useState(0);
     const [luminum, setLuminum] = useState(0);
     //const price[, setValue4] = useState(0);
-    const [image, setImage] = useState(null);
+    //const [imagem, setImage] = useState('nullimage');
+    // const [apiResponse, setApiResponse] = useState(null);
 
-    const handleNameChange = (event) => {
-        setName(event.target.value);
+    const handleNomeChange = (event) => {
+        console.log(nome)
+        setNome(event.target.value);
     };
 
     const handleDescriptionChange = (e) => {
@@ -32,7 +41,7 @@ const Form = () => {
         setAquagen(Number(e.target.value));
     };
 
-    const handleNoursihChange = (e) => {
+    const handleNourishChange = (e) => {
         setNoursih(Number(e.target.value));
     };
 
@@ -40,64 +49,91 @@ const Form = () => {
         setLuminum(Number(e.target.value));
     };
 
-    // const handleValue4Change = (e) => {
-    //     setValue4(Number(e.target.value));
-    // }; Price will be calculated base on the other values + multiplier o rarity maybe?
+    const handleValue4Change = (e) => {
+        setValue4(Number(e.target.value));
+    }; // Price will be calculated base on something, idk what yet
 
     const handleImageUpload = (e) => {
         const file = e.target.files[0];
-        setImage(file);
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onloadend = () => {
+            setImage(reader.result); //The result attribute contains the data as a data: URL representing the file's data as a base64 encoded string. 
+        };
+        console.log("file:");
+        console.log(file);
     };
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log({
-            name,
+
+        const basePrice = 10.10; // Base price for all plants
+
+        const data = {
+            nome,
             description,
-            aquagen,
-            nourish,
-            luminum,
-            image
+            matter : {
+                aquagen,
+                nourish,
+                luminum
+            },
+            basePrice,
+            // imagem
+        };
+
+        fetch(`${apiUrl}/plantas`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(result => {
+            console.log('API response:', result);
+            setApiResponse(result); // Set the API response to the state
+            // Handle the API response here
+        })
+        .catch(error => {
+            console.error('API error:', error);
+            // Handle the API error here
         });
-        // Make a post request to the server API
     };
+
+    //TODO: Manter o formulário esteticamente agradável, nao precisa ser resultado final
 
     return (
         <FormWrapper onSubmit={handleSubmit} className='form-wrapper'>
-            <label>
+            <Input>
                 Name:
-                <input type="text" value={name} onChange={handleNameChange} />
-            </label>
-            <br />
-            <label>
+                <input type="text" value={nome} onChange={handleNomeChange} />
+            </Input>
+            <Input>
                 Description:
-                <textarea value={description} onChange={handleDescriptionChange} />
-            </label>
-            <br />
-            <label>
+                <textarea type="text" value={description} onChange={handleDescriptionChange}/>
+            </Input>
+            <Input>
                 Aquagen:
                 <input type="number" value={aquagen} onChange={handleAquagenChange} />
-            </label>
-            <br />
-            <label>
+            </Input>
+            <Input>
                 Nourish:
-                <input type="number" value={nourish} onChange={handleNoursihChange} />
-            </label>
-            <br />
-            <label>
+                <input type="number" value={nourish} onChange={handleNourishChange} />
+            </Input>
+            <Input>
                 Luminum:
                 <input type="number" value={luminum} onChange={handleLuminumChange} />
-            </label>
-            <br />
+            </Input>
             {/* <label>
                 Value 4:
                 <input type="number" value={value4} onChange={handleValue4Change} />
             </label> */}
             <br />
-            <label>
+            {/* <label>
                 Image:
                 <input type="file" onChange={handleImageUpload} />
-            </label>
+            </label> */}
             <br />
             <button type="submit">Submit</button>
         </FormWrapper>

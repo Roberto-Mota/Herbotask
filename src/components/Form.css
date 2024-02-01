@@ -1,13 +1,15 @@
-.form {
+.form-wrapper {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    align-self: center;
 }
 
 .form input {
-    margin-bottom: 10px;
+    margin-bottom: 10vh;
     padding: 5px;
-    width: 200px;
+    width: 2000px;
 }
 
 .form button {

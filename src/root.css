@@ -1,9 +1,9 @@
-:root {
+/* :root {
     --global-primary-darkcolor: #594433;
     --global-primary-lightcolor: #F4F4F4;
     --global-secondary-darkcolor: #A68C69;
     --global-secondary-lightcolor: #F0E5C9; /* Fundo de menu */
-    --global-actions-color: #9BA657;
-}
+    /* --global-actions-color: #9BA657; */
+/* } */
 
 /* Por ser root, é global, ou seja, é aplicado em todos os elementos */
