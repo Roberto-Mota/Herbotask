@@ -35,7 +35,7 @@ const apiUrl = 'http://localhost:1234'; // URL da API mongo
 //     },
 //   ];
 
-const MainPage = () => {
+const PageAllPlants = () => {
 
   //const history = useHistory();
 
@@ -95,4 +95,4 @@ const MainPage = () => {
     </ItemList>
 </Body> )};
 
-export default MainPage;
+export default PageAllPlants;

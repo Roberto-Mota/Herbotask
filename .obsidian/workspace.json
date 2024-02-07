@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3385bfb57c8f24a5",
@@ -167,7 +166,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "238e2a139797e66a",
+  "active": "ee3f6aadd34feee2",
   "lastOpenFiles": [
     "vite.config.js.timestamp-1706824642055-a252ebe352a29.mjs",
     "Conceito/Obsolet/Techlien.md",

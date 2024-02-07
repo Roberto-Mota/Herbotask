@@ -5,11 +5,11 @@
 import { useState } from 'react'
 import './App.css'
 import { Route, Routes, BrowserRouter} from 'react-router-dom';
-import Form from './components/Form.jsx';
+import Form from './components/PlantForm.jsx';
 import Header from './components/Header.jsx';
 // import AuthRoute from "./components/AuthRoute";
 
-import MainPage from './components/MainPage.jsx';
+import PageAllPlants from './components/PageAllPlants.jsx';
 // import Timer from './components/Timer/Timer';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
           path="/"
           element={
             // <AuthRoute>
-              <MainPage/>
+              <PageAllPlants/>
             // </AuthRoute>
           }
         />
