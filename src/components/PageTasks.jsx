@@ -25,7 +25,7 @@ const PageTasks = () => {
   useEffect(() => {
       const plantas = (`${apiUrl}/plantas`);
       console.log(plantas);
-      fetch(plantas) // Substitua com a URL correta da sua API
+      fetch(plantas) 
       .then(response => response.json())
       .then(response => {
         console.log("response: ");
@@ -35,42 +35,27 @@ const PageTasks = () => {
         .then(response => setArrayItems(response))
         .catch(error => {
           console.error('Erro ao buscar dados:', error);
-          // Notify the user of the error
-          // alert('Ocorreu um problema ao buscar os dados. Por favor, tente novamente mais tarde.');
-          // if (error.message === 'Failed to fetch') {
-          //   alert('Você está offline. Por favor, conecte-se à internet e tente novamente.');
-          // }
-          //history.push('/pagina-de-erro');
-          
-
         });
       console.log(`arrayItems: ${arrayItems}`);
-    }, []); // O array vazio como segundo argumento garante que isso roda apenas uma vez ao montar o componente
-
+    }, []); 
 
     return (
 <Body>
-    {/* <TaskList> */}
         {arrayItems.map((item) => {
           console.log("item: ", item);
           return (
             <Task key={task.id}>
               <h1>{item.nome}</h1>
               <ImageCard image={item.imagem ? default_plant : default_plant}
-             //TODO: Preciso consertar o tratamento da imagem e escolher o formato de armazenamento
-             // `data:png;base64,${item.imagem.toString('base64')}` : default_plant}
                 alt="description"
               />
               {console.log("item.description: ")}
               {console.log(item.description)}
               <Description text={item.description}/>
-              {/* {console.log("item.imagem: ")}
-              {console.log(item.imagem)} */}
 
             </Task>
           );
         })}
-    {/* </TaskList> */}
 </Body> )};
 
 export default PageAllPlants;

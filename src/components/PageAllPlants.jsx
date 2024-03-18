@@ -44,7 +44,7 @@ const PageAllPlants = () => {
   useEffect(() => {
       const plantas = (`${apiUrl}/plantas`);
       console.log(plantas);
-      fetch(plantas) // Substitua com a URL correta da sua API
+      fetch(plantas)
       .then(response => response.json())
       .then(response => {
         console.log("response: ");
