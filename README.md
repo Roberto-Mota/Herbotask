@@ -25,6 +25,10 @@ O arquivo db.json contém os dados que serão utilizados pelo json-server.
 
 ---
 
+Esse projeto utiliza a biblioteca [MUI](https://mui.com/) para a criação de componentes e abstração do CSS boilerplate, além de adotar o padrão mobile first para o projeto.
+
+---
+
 ## Visão Geral:
 Herbotask é um projeto que combina sua paixão por herbologia, alquimia, pesquisa e natureza com a gamificação para aumentar a motivação e a produtividade em sua vida diária. Este sistema transforma tarefas cotidianas em missões e desafios que ganham recompensas no mundo virtual e real.
 

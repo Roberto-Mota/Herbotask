@@ -7,6 +7,11 @@ import './App.css'
 import { Route, Routes, BrowserRouter} from 'react-router-dom';
 import Form from './components/PlantForm.jsx';
 import Header from './components/Header.jsx';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 // import AuthRoute from "./components/AuthRoute";
 
 import PageAllPlants from './components/PageAllPlants.jsx';
