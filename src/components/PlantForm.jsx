@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Input from './Input';
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
+
 
 const apiUrlMock = 'http://localhost:3000'; // URL do servidor db.json
 const apiUrl = 'http://localhost:1234'; // URL da API mongo
@@ -19,7 +22,7 @@ const FormWrapper = styled.form`
 `;
 
 const Form = () => {
-    const [nome, setNome] = useState('default name');
+    const [nome, setNome] = useState('');
     const [description, setDescription] = useState('');
     const [aquagen, setAquagen] = useState(0);
     const [nourish, setNoursih] = useState(0);
@@ -106,24 +109,20 @@ const Form = () => {
     return (
         <FormWrapper onSubmit={handleSubmit} className='form-wrapper'>
             <Input>
-                Name:
-                <input type="text" value={nome} onChange={handleNomeChange} />
+                <TextField id="outlined-basic" label="Name:" variant="outlined" required="true" type="text" value={nome} onChange={handleNomeChange}/>
+                <input type="text" />
             </Input>
             <Input>
-                Description:
-                <textarea type="text" value={description} onChange={handleDescriptionChange}/>
+                <TextField id="outlined-basic" label="Description:" variant="outlined" multiline rows={4} value={description} onChange={handleDescriptionChange}/>
             </Input>
             <Input>
-                Aquagen:
-                <input type="number" value={aquagen} onChange={handleAquagenChange} />
+                <TextField id="outlined-basic" label="Aquagen:" variant="outlined" type="number" value={aquagen} onChange={handleAquagenChange}/>
             </Input>
             <Input>
-                Nourish:
-                <input type="number" value={nourish} onChange={handleNourishChange} />
+                <TextField id="outlined-basic" label="Nourish:" variant="outlined" type="number" value={nourish} onChange={handleNourishChange}/>
             </Input>
             <Input>
-                Luminum:
-                <input type="number" value={luminum} onChange={handleLuminumChange} />
+                <TextField id="outlined-basic" label="Luminum:" variant="outlined" type="number" value={luminum} onChange={handleLuminumChange}/>
             </Input>
             {/* <label>
                 Value 4:
@@ -135,7 +134,7 @@ const Form = () => {
                 <input type="file" onChange={handleImageUpload} />
             </label> */}
             <br />
-            <button type="submit">Submit</button>
+            <Button variant="contained" type="submit">Submit</Button>
         </FormWrapper>
     );
 };

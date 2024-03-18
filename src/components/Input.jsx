@@ -10,3 +10,5 @@ const Input = (props) => {
 }
 
 export default Input;
+
+//Maybe obsolete :O
